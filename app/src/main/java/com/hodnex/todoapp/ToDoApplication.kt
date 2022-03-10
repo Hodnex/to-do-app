@@ -1,9 +1,7 @@
-package com.hodnex.todoapp;
+package com.hodnex.todoapp
 
-import android.app.Application;
-
-import dagger.hilt.android.HiltAndroidApp;
+import dagger.hilt.android.HiltAndroidApp
+import android.app.Application
 
 @HiltAndroidApp
-public class ToDoApplication extends Application {
-}
+class ToDoApplication : Application()
